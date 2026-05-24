@@ -69,4 +69,10 @@ describe("Gilded Rose", function() {
     expect(shop.items[0].quality).toBe(22);
   });
 
+  it("12. Backstage passes increase by 3 when ≤5 days", function() {
+    const shop = new Shop([new Item("Backstage passes to a TAFKAL80ETC concert", 5, 20)]);
+    shop.updateQuality();
+    expect(shop.items[0].quality).toBe(23);
+  });
+
 });
