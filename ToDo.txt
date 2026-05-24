@@ -144,7 +144,7 @@ SellIn: 4
 Quality: 50
 
 
-13. Conjured Item degrades twice as fast //in progress
+13. Conjured Item degrades twice as fast //done
 --------------------------------------------------
 Input:
 Name: Conjured Mana Cake
@@ -156,7 +156,7 @@ SellIn: 4
 Quality: 18
 
 
-14. Conjured Item after Sell Date
+14. Conjured Item after Sell Date //in progress 
 --------------------------------------------------
 Input:
 Name: Conjured Mana Cake
