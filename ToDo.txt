@@ -84,7 +84,7 @@ SellIn: 0
 Quality: 80
 
 
-8. Backstage Passes with more than 10 days // in progress
+8. Backstage Passes with more than 10 days //done
 --------------------------------------------------
 Input:
 Name: Backstage passes
@@ -96,7 +96,7 @@ SellIn: 14
 Quality: 21
 
 
-9. Backstage Passes with 10 days or less
+9. Backstage Passes with 10 days or less //in progress
 --------------------------------------------------
 Input:
 Name: Backstage passes
