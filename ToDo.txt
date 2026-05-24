@@ -48,7 +48,7 @@ SellIn: 4
 Quality: 11
 
 
-5. Aged Brie after Sell Date //in progress
+5. Aged Brie after Sell Date //done
 --------------------------------------------------
 Input:
 Name: Aged Brie
@@ -60,7 +60,7 @@ SellIn: -1
 Quality: 12
 
 
-6. Aged Brie quality never above 50
+6. Aged Brie quality never above 50 //in progress
 --------------------------------------------------
 Input:
 Name: Aged Brie
