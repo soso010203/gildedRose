@@ -39,4 +39,10 @@ describe("Gilded Rose", function() {
     expect(shop.items[0].quality).toBe(12);
   });
 
+  it("7. Aged Brie quality never exceeds 50", function() {
+    const shop = new Shop([new Item("Aged Brie", 5, 50)]);
+    shop.updateQuality();
+    expect(shop.items[0].quality).toBe(50);
+  });
+
 });
