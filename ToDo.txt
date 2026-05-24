@@ -132,7 +132,7 @@ SellIn: -1
 Quality: 0
 
 
-12. Backstage Passes quality never above 50 //in progress
+12. Backstage Passes quality never above 50 //done
 --------------------------------------------------
 Input:
 Name: Backstage passes
@@ -144,7 +144,7 @@ SellIn: 4
 Quality: 50
 
 
-13. Conjured Item degrades twice as fast
+13. Conjured Item degrades twice as fast //in progress
 --------------------------------------------------
 Input:
 Name: Conjured Mana Cake
