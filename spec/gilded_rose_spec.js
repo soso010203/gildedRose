@@ -97,4 +97,15 @@ it("14. Conjured item degrades four times as fast after sell date", function() {
   expect(shop.items[0].quality).toBe(16);
 });
 
+it("15. Conjured item quality never becomes negative", function() {
+  const shop = new Shop([
+    new Item("Conjured Mana Cake", 0, 1)
+  ]);
+
+  shop.updateQuality();
+
+  expect(shop.items[0].sellIn).toBe(-1);
+  expect(shop.items[0].quality).toBe(0);
+});
+
 });
