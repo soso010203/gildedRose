@@ -12,7 +12,7 @@ SellIn: 9
 Quality: 19
 
 
-2. Normal Item after Sell Date  //in progress
+2. Normal Item after Sell Date  //done
 --------------------------------------------------
 Input:
 Name: Dexterity Vest
@@ -24,7 +24,7 @@ SellIn: -1
 Quality: 18
 
 
-3. Quality never negative
+3. Quality never negative //in progress
 --------------------------------------------------
 Input:
 Name: Dexterity Vest
