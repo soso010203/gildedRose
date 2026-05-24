@@ -156,7 +156,7 @@ SellIn: 4
 Quality: 18
 
 
-14. Conjured Item after Sell Date //in progress 
+14. Conjured Item after Sell Date //done
 --------------------------------------------------
 Input:
 Name: Conjured Mana Cake
@@ -168,7 +168,7 @@ SellIn: -1
 Quality: 16
 
 
-15. Conjured Item quality never negative
+15. Conjured Item quality never negative //in progress
 --------------------------------------------------
 Input:
 Name: Conjured Mana Cake
