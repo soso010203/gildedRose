@@ -72,7 +72,7 @@ SellIn: 4
 Quality: 50
 
 
-7. Sulfuras never changes //in progress
+7. Sulfuras never changes //done
 --------------------------------------------------
 Input:
 Name: Sulfuras, Hand of Ragnaros
@@ -84,7 +84,7 @@ SellIn: 0
 Quality: 80
 
 
-8. Backstage Passes with more than 10 days
+8. Backstage Passes with more than 10 days // in progress
 --------------------------------------------------
 Input:
 Name: Backstage passes
