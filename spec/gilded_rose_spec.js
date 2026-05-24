@@ -9,4 +9,10 @@ describe("Gilded Rose", function() {
     expect(items[0].quality).toBe(19);
   });
 
+  it("2. normal item decreases sellIn by 1", function() {
+    const shop = new Shop([new Item("Dexterity Vest", 10, 20)]);
+    shop.updateQuality();
+    expect(shop.items[0].sellIn).toBe(9);
+  });
+
 });
