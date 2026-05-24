@@ -51,4 +51,10 @@ describe("Gilded Rose", function() {
     expect(shop.items[0].quality).toBe(80);
   });
 
+  it("9. Sulfuras never changes sellIn", function() {
+    const shop = new Shop([new Item("Sulfuras, Hand of Ragnaros", 5, 80)]);
+    shop.updateQuality();
+    expect(shop.items[0].sellIn).toBe(5);
+  });
+
 });
