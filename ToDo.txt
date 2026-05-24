@@ -36,7 +36,7 @@ SellIn: 4
 Quality: 0
 
 
-4. Aged Brie increases in quality //in progress
+4. Aged Brie increases in quality //done
 --------------------------------------------------
 Input:
 Name: Aged Brie
@@ -48,7 +48,7 @@ SellIn: 4
 Quality: 11
 
 
-5. Aged Brie after Sell Date
+5. Aged Brie after Sell Date //in progress
 --------------------------------------------------
 Input:
 Name: Aged Brie
