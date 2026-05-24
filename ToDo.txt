@@ -24,7 +24,7 @@ SellIn: -1
 Quality: 18
 
 
-3. Quality never negative //in progress
+3. Quality never negative //done
 --------------------------------------------------
 Input:
 Name: Dexterity Vest
@@ -36,7 +36,7 @@ SellIn: 4
 Quality: 0
 
 
-4. Aged Brie increases in quality
+4. Aged Brie increases in quality //in progress
 --------------------------------------------------
 Input:
 Name: Aged Brie
