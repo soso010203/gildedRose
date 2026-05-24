@@ -15,4 +15,10 @@ describe("Gilded Rose", function() {
     expect(shop.items[0].sellIn).toBe(9);
   });
 
+  it("3. normal item degrades twice after sell date", function() {
+    const shop = new Shop([new Item("Dexterity Vest", 0, 20)]);
+    shop.updateQuality();
+    expect(shop.items[0].quality).toBe(18);
+  });
+
 });
