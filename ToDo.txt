@@ -168,7 +168,7 @@ SellIn: -1
 Quality: 16
 
 
-15. Conjured Item quality never negative //in progress
+15. Conjured Item quality never negative //done
 --------------------------------------------------
 Input:
 Name: Conjured Mana Cake
