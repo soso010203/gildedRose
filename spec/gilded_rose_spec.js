@@ -27,4 +27,10 @@ describe("Gilded Rose", function() {
     expect(shop.items[0].quality).toBe(0);
   });
 
+   it("5. Aged Brie increases in quality", function() {
+    const shop = new Shop([new Item("Aged Brie", 5, 10)]);
+    shop.updateQuality();
+    expect(shop.items[0].quality).toBe(11);
+  });
+
 });
