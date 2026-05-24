@@ -1,6 +1,6 @@
 TEST CASES – GILDED ROSE KATA
 
-1. Normal Item      in progress
+1. Normal Item      //done
 --------------------------------------------------
 Input:
 Name: Dexterity Vest
@@ -12,7 +12,7 @@ SellIn: 9
 Quality: 19
 
 
-2. Normal Item after Sell Date
+2. Normal Item after Sell Date  //in progress
 --------------------------------------------------
 Input:
 Name: Dexterity Vest
