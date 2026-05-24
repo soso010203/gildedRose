@@ -120,7 +120,7 @@ SellIn: 4
 Quality: 23
 
 
-11. Backstage Passes after concert //in progress
+11. Backstage Passes after concert //done
 --------------------------------------------------
 Input:
 Name: Backstage passes
@@ -132,7 +132,7 @@ SellIn: -1
 Quality: 0
 
 
-12. Backstage Passes quality never above 50
+12. Backstage Passes quality never above 50 //in progress
 --------------------------------------------------
 Input:
 Name: Backstage passes
