@@ -1,6 +1,6 @@
 TEST CASES – GILDED ROSE KATA
 
-1. Normal Item
+1. Normal Item      in progress
 --------------------------------------------------
 Input:
 Name: Dexterity Vest
