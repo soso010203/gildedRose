@@ -108,7 +108,7 @@ SellIn: 9
 Quality: 22
 
 
-10. Backstage Passes with 5 days or less //in progress
+10. Backstage Passes with 5 days or less //done
 --------------------------------------------------
 Input:
 Name: Backstage passes
@@ -120,7 +120,7 @@ SellIn: 4
 Quality: 23
 
 
-11. Backstage Passes after concert
+11. Backstage Passes after concert //in progress
 --------------------------------------------------
 Input:
 Name: Backstage passes
