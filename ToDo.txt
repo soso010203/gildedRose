@@ -1,0 +1,180 @@
+TEST CASES – GILDED ROSE KATA
+
+1. Normal Item
+--------------------------------------------------
+Input:
+Name: Dexterity Vest
+SellIn: 10
+Quality: 20
+
+Expected after update:
+SellIn: 9
+Quality: 19
+
+
+2. Normal Item after Sell Date
+--------------------------------------------------
+Input:
+Name: Dexterity Vest
+SellIn: 0
+Quality: 20
+
+Expected after update:
+SellIn: -1
+Quality: 18
+
+
+3. Quality never negative
+--------------------------------------------------
+Input:
+Name: Dexterity Vest
+SellIn: 5
+Quality: 0
+
+Expected after update:
+SellIn: 4
+Quality: 0
+
+
+4. Aged Brie increases in quality
+--------------------------------------------------
+Input:
+Name: Aged Brie
+SellIn: 5
+Quality: 10
+
+Expected after update:
+SellIn: 4
+Quality: 11
+
+
+5. Aged Brie after Sell Date
+--------------------------------------------------
+Input:
+Name: Aged Brie
+SellIn: 0
+Quality: 10
+
+Expected after update:
+SellIn: -1
+Quality: 12
+
+
+6. Aged Brie quality never above 50
+--------------------------------------------------
+Input:
+Name: Aged Brie
+SellIn: 5
+Quality: 50
+
+Expected after update:
+SellIn: 4
+Quality: 50
+
+
+7. Sulfuras never changes
+--------------------------------------------------
+Input:
+Name: Sulfuras, Hand of Ragnaros
+SellIn: 0
+Quality: 80
+
+Expected after update:
+SellIn: 0
+Quality: 80
+
+
+8. Backstage Passes with more than 10 days
+--------------------------------------------------
+Input:
+Name: Backstage passes
+SellIn: 15
+Quality: 20
+
+Expected after update:
+SellIn: 14
+Quality: 21
+
+
+9. Backstage Passes with 10 days or less
+--------------------------------------------------
+Input:
+Name: Backstage passes
+SellIn: 10
+Quality: 20
+
+Expected after update:
+SellIn: 9
+Quality: 22
+
+
+10. Backstage Passes with 5 days or less
+--------------------------------------------------
+Input:
+Name: Backstage passes
+SellIn: 5
+Quality: 20
+
+Expected after update:
+SellIn: 4
+Quality: 23
+
+
+11. Backstage Passes after concert
+--------------------------------------------------
+Input:
+Name: Backstage passes
+SellIn: 0
+Quality: 20
+
+Expected after update:
+SellIn: -1
+Quality: 0
+
+
+12. Backstage Passes quality never above 50
+--------------------------------------------------
+Input:
+Name: Backstage passes
+SellIn: 5
+Quality: 50
+
+Expected after update:
+SellIn: 4
+Quality: 50
+
+
+13. Conjured Item degrades twice as fast
+--------------------------------------------------
+Input:
+Name: Conjured Mana Cake
+SellIn: 5
+Quality: 20
+
+Expected after update:
+SellIn: 4
+Quality: 18
+
+
+14. Conjured Item after Sell Date
+--------------------------------------------------
+Input:
+Name: Conjured Mana Cake
+SellIn: 0
+Quality: 20
+
+Expected after update:
+SellIn: -1
+Quality: 16
+
+
+15. Conjured Item quality never negative
+--------------------------------------------------
+Input:
+Name: Conjured Mana Cake
+SellIn: 0
+Quality: 1
+
+Expected after update:
+SellIn: -1
+Quality: 0
