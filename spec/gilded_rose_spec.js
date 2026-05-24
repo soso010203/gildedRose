@@ -86,4 +86,15 @@ describe("Gilded Rose", function() {
   expect(shop.items[0].quality).toBe(18);
 });
 
+it("14. Conjured item degrades four times as fast after sell date", function() {
+  const shop = new Shop([
+    new Item("Conjured Mana Cake", 0, 20)
+  ]);
+
+  shop.updateQuality();
+
+  expect(shop.items[0].sellIn).toBe(-1);
+  expect(shop.items[0].quality).toBe(16);
+});
+
 });
