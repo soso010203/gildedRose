@@ -21,4 +21,10 @@ describe("Gilded Rose", function() {
     expect(shop.items[0].quality).toBe(18);
   });
 
+  it("4. quality is never negative", function() {
+    const shop = new Shop([new Item("Dexterity Vest", 5, 0)]);
+    shop.updateQuality();
+    expect(shop.items[0].quality).toBe(0);
+  });
+
 });
